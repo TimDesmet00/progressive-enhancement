@@ -1,0 +1,41 @@
+body {
+    width: 90%;
+    margin: auto;    
+    background: -webkit-radial-gradient(rgb(255, 228, 196), rgb(254, 190, 115));
+    background: radial-gradient(rgb(255, 228, 196), rgb(254, 190, 115));
+
+
+}
+p {
+    font-family: Arial serif;
+    word-spacing: 2px;
+    font-size: 20px;
+    color: darkmagenta;
+    margin: 10px;
+}
+
+.link {
+    font-size: 25px;
+    color: aqua;
+}
+
+.link:hover {
+    font-size: 30px;
+    color: darkmagenta;
+}
+
+p {
+    width: 50%;
+    margin: auto;
+}
+
+strong, .good {
+    font-size: 160%;
+    color: grey;
+    border-left: 3px solid RGB(160,54,35);
+    padding-left: 30px;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
+    
+}
+
