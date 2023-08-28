@@ -6,12 +6,27 @@ body {
 
 
 }
+
 p {
     font-family: Arial serif;
     word-spacing: 2px;
-    font-size: 20px;
+    font-size: 18px;
     color: darkmagenta;
     margin: 10px;
+}
+
+header, section, footer, aside {
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: grey;
+    border-left: 3px solid RGB(160,54,35);
+    padding: 80px 0px 80px 30px;
+}
+
+header p {
+    background-color: yellow;
+    text-align: center;
 }
 
 .link {
@@ -24,18 +39,40 @@ p {
     color: darkmagenta;
 }
 
-p {
-    width: 50%;
-    margin: auto;
+.citation, .farmer {
+    font-style: italic;
 }
 
-strong, .good {
-    font-size: 160%;
-    color: grey;
-    border-left: 3px solid RGB(160,54,35);
-    padding-left: 30px;
-    /* padding-top: 80px;
-    padding-bottom: 80px; */
-    
+.citation {
+    border-left: 2px solid blue;
 }
 
+.farmer {
+    border-left: 2px solid red;
+}
+
+p > .good {
+    font-style: italic;
+    text-transform: capitalize;    
+    color: green;
+}
+
+p > .bad {
+    font-style: italic;
+    text-transform: capitalize;
+    color: red;
+}
+
+i > .bad {
+    font-style: italic;
+    text-transform: capitalize;
+    color: red;
+}
+
+[target="white"] {
+    background-color: white;
+}
+
+article + p {
+    font-weight: bold;
+}
