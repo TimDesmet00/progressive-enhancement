@@ -3,25 +3,25 @@ body {
     margin: auto;    
     background: -webkit-radial-gradient(rgb(255, 228, 196), rgb(254, 190, 115));
     background: radial-gradient(rgb(255, 228, 196), rgb(254, 190, 115));
-
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 p {
-    font-family: Arial serif;
+    /* font-family: Arial serif; */
     word-spacing: 2px;
     font-size: 18px;
     color: darkmagenta;
     margin: 10px;
 }
 
-header, section, footer, aside {
+header,header p, section, footer, aside {
     width: 50%;
     margin: auto;
     font-size: 160%;
     background-color: grey;
     border-left: 3px solid RGB(160,54,35);
-    padding: 80px 0px 80px 30px;
+    padding: 40px 0px 40px 30px;
 }
 
 header p {
@@ -57,13 +57,7 @@ p > .good {
     color: green;
 }
 
-p > .bad {
-    font-style: italic;
-    text-transform: capitalize;
-    color: red;
-}
-
-i > .bad {
+p > .bad, i > .bad {
     font-style: italic;
     text-transform: capitalize;
     color: red;
@@ -75,4 +69,18 @@ i > .bad {
 
 article + p {
     font-weight: bold;
+}
+
+img {
+    position: absolute;
+    float: right;   
+    margin-left: 42%; 
+}
+
+figcaption {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+
 }
