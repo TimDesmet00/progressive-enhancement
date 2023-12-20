@@ -12,4 +12,4 @@ https://timdesmet00.github.io/progressive-enhancement/
 
 ## Tech Stack
 
-HTML,CSS
+HTML, CSS
